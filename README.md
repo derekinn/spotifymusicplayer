@@ -23,6 +23,12 @@ Para usar o player de música, siga estas etapas:
 2. Abra o arquivo `index.html` em um navegador web.
 3. Use os botões de controle para reproduzir, pausar, avançar, retroceder, repetir e embaralhar as músicas.
 
+## Visualização
+
+Para apenas visualizar, acesse o link abaixo:
+
+- meuspotify.vercel.app
+
 ## Contribuindo
 
 Contribuições são bem-vindas! Se você encontrar um bug ou gostaria de adicionar uma nova funcionalidade, sinta-se à vontade para criar uma issue ou abrir um pull request.
