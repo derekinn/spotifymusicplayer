@@ -27,7 +27,7 @@ Para usar o player de música, siga estas etapas:
 
 Para apenas visualizar, acesse o link abaixo:
 
-- meuspotify.vercel.app
+- https://meuspotify.vercel.app
 
 ## Contribuindo
 
