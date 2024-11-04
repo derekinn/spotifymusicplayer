@@ -29,13 +29,27 @@ const TTF = {
     artist : 'Derek, Leviano, Brandão085',
     file: 'ttf'
 };
+const DFT = {
+    songName: 'Change',
+    artist: 'Deftones',
+    file: 'changes_dft'
+};
+const MYOS = {
+  songName: 'My Own Summer',
+  artis: 'Deftones',
+  file: 'myos'
+}
+
 let isPlaying = false;
 let isShuffled = false;
 let repeatOn = false;
+
 const originalPlaylist = JSON.parse(localStorage.getItem('playlist')) ?? [
   VidaCara,
   Junho94,
   TTF,
+  DFT,
+  MYOS,
 ];
 let sortedPlaylist = [...originalPlaylist];
 let index = 0;
@@ -77,6 +91,7 @@ function likeButtonRender() {
 function initializeSong() {
   cover.src = `imgs/${sortedPlaylist[index].file}.jpg`;
   song.src = `songs/${sortedPlaylist[index].file}.mp3`;
+  song.load(); 
   songName.innerText = sortedPlaylist[index].songName;
   bandName.innerText = sortedPlaylist[index].artist;
   likeButtonRender();
