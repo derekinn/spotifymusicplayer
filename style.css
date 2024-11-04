@@ -1,81 +1,74 @@
-/* Configurações gerais */
+/* Configuração geral do body para cobrir a tela inteira e evitar faixa branca */
 body {
   background-image: linear-gradient(rgb(59, 88, 93), rgb(29, 40, 42));
   min-height: 100vh;
+  margin: 0;
+  padding: 0;
   color: white;
   font-family: sans-serif;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
+  overflow-x: hidden; /* Evita rolagem horizontal */
+  overflow-y: auto;   /* Permite rolagem vertical */
+  box-sizing: border-box; /* Garante que padding e border não aumentem o tamanho total */
 }
 
-button {
-  background-color: inherit;
-  color: inherit;
-  border: none;
-  padding: 0.5em;
+/* Ajuste do título para centralização e espaçamento */
+#playlist-title {
+  text-align: center;
+  margin: 1em 0; /* Reduz espaço em branco ao redor */
 }
 
+/* Ajustes para o cover de imagem e garantir que o tamanho é responsivo */
+#cover {
+  width: 90vw; /* Mantém a largura relativa à tela para dispositivos menores */
+  max-width: 450px; /* Define um limite máximo para telas grandes */
+  margin-top: 1em;
+  border-radius: 8px;
+}
+
+/* Organização do abaixo da capa */
 #below-cover {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  margin: 1em 0; 
-  width: 90vw;
-  max-width: 400px;
+  width: 90vw; /* Usar largura responsiva */
+  max-width: 450px;
+  margin: 1.6em 0 1em;
 }
 
+/* Organização dos botões */
 #button-container {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
   width: 90vw;
-  max-width: 400px;
+  max-width: 450px;
 }
 
 .button {
-  font-size: 1.6em;
+  font-size: 1.5em;
   cursor: pointer;
 }
 
+/* Tamanhos relativos para botões de navegação e play */
 .button-navigate {
-  font-size: 2.5em;
-}
-
-.button-biggest {
   font-size: 3em;
 }
 
-#cover {
+.button-biggest {
+  font-size: 4em;
+}
+
+/* Barra de progresso */
+#progress-container {
   width: 90vw;
-  max-width: 400px;
-  height: auto;
-  margin: 1em 0;
-}
-
-#playlist-title {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  margin: 0.5em 0 2em;
-  width: 100%;
-  max-width: 400px;
-  font-size: 1.2em;
-  text-align: center;
-}
-
-#song-name {
-  font-size: 1.4em;
-  font-weight: bolder;
-}
-
-.light-color {
-  color: rgb(139, 153, 156);
+  max-width: 450px;
+  cursor: pointer;
+  margin-top: 1em;
 }
 
 #progress-bar {
@@ -93,82 +86,13 @@ button {
   border-radius: inherit;
 }
 
-#progress-container {
-  cursor: pointer;
-  width: 90vw;
-  max-width: 400px;
-  margin: 1em 0;
-}
-
-.button-active {
-  color: rgb(0, 183, 107);
-}
-
+/* Box de tempo */
 #time-box {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   font-size: smaller;
-  width: 90vw;
-  max-width: 400px;
   margin-top: 0.5em;
-}
-
-/* Ajustes para dispositivos móveis */
-@media (max-width: 768px) {
-  #cover {
-    width: 80vw;
-  }
-
-  .button {
-    font-size: 1.4em;
-  }
-
-  .button-navigate {
-    font-size: 2.2em;
-  }
-
-  .button-biggest {
-    font-size: 2.8em;
-  }
-
-  #song-name {
-    font-size: 1.2em;
-  }
-
-  #time-box {
-    font-size: 0.8em;
-  }
-}
-
-/* Ajustes para telas maiores */
-@media (min-width: 1024px) {
-  body {
-    max-width: 600px;
-    margin: auto;
-  }
-
-  #cover {
-    width: 100%;
-    max-width: 450px;
-  }
-
-  #below-cover,
-  #button-container,
-  #progress-container,
-  #time-box {
-    max-width: 450px;
-  }
-
-  .button {
-    font-size: 1.6em;
-  }
-
-  .button-navigate {
-    font-size: 3em;
-  }
-
-  .button-biggest {
-    font-size: 3.5em;
-  }
+  width: 90vw;
+  max-width: 450px;
 }
