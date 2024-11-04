@@ -1,21 +1,22 @@
 /* Configurações gerais */
 body {
   background-image: linear-gradient(rgb(59, 88, 93), rgb(29, 40, 42));
-  height: 100vh;
+  min-height: 100vh;
   color: white;
   font-family: sans-serif;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 0; /* Remove a margem padrão */
-  overflow-x: hidden; /* Evita rolagem lateral indesejada */
-  padding: 1em; /* Adiciona um leve padding */
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
 }
 
 button {
   background-color: inherit;
   color: inherit;
   border: none;
+  padding: 0.5em;
 }
 
 #below-cover {
@@ -23,9 +24,9 @@ button {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  margin: 1.6em 0 1em 0; 
-  width: 100%;
-  max-width: 450px;
+  margin: 1em 0; 
+  width: 90vw;
+  max-width: 400px;
 }
 
 #button-container {
@@ -33,40 +34,43 @@ button {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  width: 100%;
-  max-width: 450px;
+  width: 90vw;
+  max-width: 400px;
 }
 
 .button {
-  font-size: 1.5em;
+  font-size: 1.6em;
   cursor: pointer;
 }
 
 .button-navigate {
-  font-size: 3em;
+  font-size: 2.5em;
 }
 
 .button-biggest {
-  font-size: 4em;
+  font-size: 3em;
 }
 
 #cover {
-  width: 100%;
-  max-width: 450px; /* Limita o tamanho da capa no desktop */
+  width: 90vw;
+  max-width: 400px;
   height: auto;
+  margin: 1em 0;
 }
 
 #playlist-title {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin: 1em 0 3em 0; 
+  margin: 0.5em 0 2em;
   width: 100%;
-  max-width: 450px;
+  max-width: 400px;
+  font-size: 1.2em;
+  text-align: center;
 }
 
 #song-name {
-  font-size: 1.5em;
+  font-size: 1.4em;
   font-weight: bolder;
 }
 
@@ -91,8 +95,9 @@ button {
 
 #progress-container {
   cursor: pointer;
-  width: 100%;
-  max-width: 450px;
+  width: 90vw;
+  max-width: 400px;
+  margin: 1em 0;
 }
 
 .button-active {
@@ -104,40 +109,66 @@ button {
   flex-direction: row;
   justify-content: space-between;
   font-size: smaller;
+  width: 90vw;
+  max-width: 400px;
   margin-top: 0.5em;
-  width: 100%;
-  max-width: 450px;
 }
 
-/* Ajuste para dispositivos móveis */
+/* Ajustes para dispositivos móveis */
 @media (max-width: 768px) {
   #cover {
-    width: 80%; /* Reduz a largura da capa no celular */
+    width: 80vw;
   }
 
   .button {
-    font-size: 1.2em; /* Diminui o tamanho dos botões */
+    font-size: 1.4em;
   }
 
   .button-navigate {
-    font-size: 2em; /* Ajuste para os botões de navegação */
+    font-size: 2.2em;
   }
 
   .button-biggest {
-    font-size: 3em; /* Ajuste para o botão maior */
+    font-size: 2.8em;
   }
 
   #song-name {
-    font-size: 1.2em; /* Ajuste para o nome da música */
-  }
-
-  #button-container {
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 0 1em; /* Adiciona um pouco de espaço nas laterais */
+    font-size: 1.2em;
   }
 
   #time-box {
-    font-size: 0.9em; /* Reduz o tamanho das informações de tempo */
+    font-size: 0.8em;
+  }
+}
+
+/* Ajustes para telas maiores */
+@media (min-width: 1024px) {
+  body {
+    max-width: 600px;
+    margin: auto;
+  }
+
+  #cover {
+    width: 100%;
+    max-width: 450px;
+  }
+
+  #below-cover,
+  #button-container,
+  #progress-container,
+  #time-box {
+    max-width: 450px;
+  }
+
+  .button {
+    font-size: 1.6em;
+  }
+
+  .button-navigate {
+    font-size: 3em;
+  }
+
+  .button-biggest {
+    font-size: 3.5em;
   }
 }
