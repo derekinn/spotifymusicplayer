@@ -1,4 +1,4 @@
-/* Configuração geral do body para cobrir a tela inteira e evitar faixa branca */
+/* Configuração geral do body */
 body {
   background-image: linear-gradient(rgb(59, 88, 93), rgb(29, 40, 42));
   min-height: 100vh;
@@ -14,7 +14,24 @@ body {
   box-sizing: border-box; /* Garante que padding e border não aumentem o tamanho total */
 }
 
-/* Ajuste do título para centralização e espaçamento */
+/* Ajustes para os botões para remover estilos padrão */
+button {
+  background-color: inherit;
+  color: inherit;
+  border: none;
+  outline: none;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+  font-family: inherit; /* Herda a fonte do body */
+}
+
+/* Remover efeitos de foco em botões */
+button:focus {
+  outline: none;
+}
+
+/* Organização do título */
 #playlist-title {
   text-align: center;
   margin: 1em 0; /* Reduz espaço em branco ao redor */
@@ -39,7 +56,7 @@ body {
   margin: 1.6em 0 1em;
 }
 
-/* Organização dos botões */
+/* Organização dos botões de controle */
 #button-container {
   display: flex;
   flex-direction: row;
@@ -54,7 +71,6 @@ body {
   cursor: pointer;
 }
 
-/* Tamanhos relativos para botões de navegação e play */
 .button-navigate {
   font-size: 3em;
 }
@@ -95,4 +111,9 @@ body {
   margin-top: 0.5em;
   width: 90vw;
   max-width: 450px;
+}
+
+/* Ativo o estado do botão ativo (por exemplo, like) */
+.button-active {
+  color: rgb(0, 183, 107);
 }
