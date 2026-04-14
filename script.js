@@ -37,7 +37,7 @@ const DFT = {
 const BRX = {
   songName: 'Bloxada',
   artis: 'brx',
-  file: 'BRX'
+  file: 'brx'
 }
 
 let isPlaying = false;
