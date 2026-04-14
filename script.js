@@ -34,10 +34,10 @@ const DFT = {
     artist: 'Deftones',
     file: 'changes_dft'
 };
-const MYOS = {
-  songName: 'My Own Summer',
-  artis: 'Deftones',
-  file: 'myos'
+const BRX = {
+  songName: 'Bloxada',
+  artis: 'brx',
+  file: 'BRX'
 }
 
 let isPlaying = false;
@@ -49,7 +49,7 @@ const originalPlaylist = JSON.parse(localStorage.getItem('playlist')) ?? [
   Junho94,
   TTF,
   DFT,
-  MYOS,
+  BRX,
 ];
 let sortedPlaylist = [...originalPlaylist];
 let index = 0;
