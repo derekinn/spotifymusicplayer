@@ -49,7 +49,7 @@ const originalPlaylist = JSON.parse(localStorage.getItem('playlist')) ?? [
   Junho94,
   TTF,
   DFT,
-  BRX,
+  BRX
 ];
 let sortedPlaylist = [...originalPlaylist];
 let index = 0;
