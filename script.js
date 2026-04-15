@@ -25,19 +25,54 @@ const Junho94 = {
     file: 'omqqsd'
 };
 const TTF = {
-    songName: 'Trap the fato',
+    songName: 'Trap The Fato',
     artist : 'Derek, Leviano, Brandão085',
     file: 'ttf'
 };
-const DFT = {
-    songName: 'Change',
-    artist: 'Deftones',
-    file: 'changes_dft'
+const BBL = {
+    songName: 'Brasil Grime',
+    artist : 'Bebelsite, Vercetti',
+    file: 'bbl'
 };
-const BRX = {
-  songName: 'Bloxada',
-  artis: 'brx',
-  file: 'brx'
+const MAL = {
+    songName: 'Brasil Grime',
+    artist : 'Malagueta, Oliveira',
+    file: 'mal'
+};
+const SMTSD9 = {
+    songName: 'Brasil Grime',
+    artist : 'MC Smith, SD9',
+    file: 'smtsd9'
+};
+const VND = {
+    songName: 'Brasil Grime',
+    artist : 'OG Britto, VND',
+    file: 'vnd'
+};
+const RD = {
+    songName: 'Brasil Grime',
+    artist : 'Elicê, Major RD',
+    file: 'rd'
+};
+const PUTO = {
+    songName: 'Brasil Grime',
+    artist : 'Putodiparis, TokioDK',
+    file: 'puto'
+};
+const TRCS = {
+    songName: 'Brasil Grime',
+    artist : 'Tárcis, Thxuzz',
+    file: 'trcs'
+};
+const FLSD9 = {
+    songName: 'Brasil Grime',
+    artist : 'Fleezus, SD9',
+    file: 'flsd9'
+};
+const DRX = {
+    songName: 'Brasil Grime',
+    artist : 'Big Bllakk, Derxan',
+    file: 'drx'
 }
 
 let isPlaying = false;
@@ -48,8 +83,15 @@ const originalPlaylist = JSON.parse(localStorage.getItem('playlist')) ?? [
   VidaCara,
   Junho94,
   TTF,
-  DFT,
-  BRX
+  BBL,
+  MAL,
+  SMTSD9,
+  VND,
+  RD,
+  PUTO,
+  TRCS,
+  FLSD9,
+  DRX,
 ];
 let sortedPlaylist = [...originalPlaylist];
 let index = 0;
