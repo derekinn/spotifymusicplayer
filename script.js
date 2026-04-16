@@ -91,7 +91,7 @@ const DUZZ = {
 };
 const GANNI = {
     songName: 'Não durmo',
-    artist : 'Fleezus e SD9',
+    artist : 'Yong Ganni e FBC',
     file: 'ganni'
 };
 const LEALLVND = {
