@@ -76,12 +76,12 @@ const DRX = {
 };
 const BIGSANT = {
     songName: 'Chove chuva',
-    artist : 'Big bllakk',
+    artist : 'Big Bllakk, Sant',
     file: 'bigsant'
 };
 const DUZZ = {
     songName: 'Deeabo',
-    artist : 'Fleezus, SD9',
+    artist : 'Duzz',
     file: 'deeabo'
 };
 const GANNI = {
@@ -111,12 +111,12 @@ const MATUE1 = {
 };
 const MATUE2 = {
     songName: 'Japonês',
-    artist : 'Fleezus, SD9',
+    artist : 'Matuê, Brandão',
     file: 'matue2'
 };
 const NILL = {
     songName: 'Regras da Loja',
-    artist : 'Fleezus, SD9',
+    artist : 'niLL, BK',
     file: 'nill'
 };
 const PIOR = {
