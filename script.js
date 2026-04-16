@@ -74,6 +74,11 @@ const DRX = {
     artist : 'Big Bllakk e Derxan',
     file: 'drx'
 };
+const LEALL = {
+    songName: 'Brasil Grime',
+    artist : 'Leall e ALD',
+    file: 'leall'
+};
 const BIGSANT = {
     songName: 'Chove chuva',
     artist : 'Big Bllakk e Sant',
@@ -88,11 +93,6 @@ const GANNI = {
     songName: 'Não durmo',
     artist : 'Fleezus e SD9',
     file: 'ganni'
-};
-const LEALL = {
-    songName: 'Brasil Grime',
-    artist : 'Leall e ALD',
-    file: 'leall'
 };
 const LEALLVND = {
     songName: 'Poder Bélico',
@@ -162,10 +162,10 @@ const originalPlaylist = JSON.parse(localStorage.getItem('playlist')) ?? [
   TRCS,
   FLSD9,
   DRX,
+  LEALL,
   BIGSANT,
   DUZZ,
   GANNI,
-  LEALL,
   LEALLVND,
   LIPTNT,
   MATUE1,
