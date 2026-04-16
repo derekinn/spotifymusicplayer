@@ -175,7 +175,7 @@ const originalPlaylist = JSON.parse(localStorage.getItem('playlist')) ?? [
   PUTO1,
   PUTO2,
   TRANCE,
-  VIKVCT,
+  VIKVCT
 ];
 let sortedPlaylist = [...originalPlaylist];
 let index = 0;
