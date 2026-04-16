@@ -16,7 +16,7 @@ const totalTime = document.getElementById('total-time');
 //musicas aq
 const VidaCara = {
     songName: 'Vida Cara',
-    artist : 'Orochi, Domlaike, Chefin',
+    artist : 'Orochi, Domlaike e Chefin',
     file: 'vida_cara'
 };
 const Junho94 = {
@@ -26,57 +26,57 @@ const Junho94 = {
 };
 const TTF = {
     songName: 'Trap The Fato',
-    artist : 'Derek, Leviano, Brandão085',
+    artist : 'Derek, Leviano e Brandão085',
     file: 'ttf'
 };
 const BBL = {
     songName: 'Brasil Grime',
-    artist : 'Bebelsite, Vercetti',
+    artist : 'Bebelsite e Vercetti',
     file: 'bbl'
 };
 const MAL = {
     songName: 'Brasil Grime',
-    artist : 'Malagueta, Oliveira',
+    artist : 'Malagueta e Oliveira',
     file: 'mal'
 };
 const SMTSD9 = {
     songName: 'Brasil Grime',
-    artist : 'MC Smith, SD9',
+    artist : 'MC Smith e SD9',
     file: 'smtsd9'
 };
 const VND = {
     songName: 'Brasil Grime',
-    artist : 'OG Britto, VND',
+    artist : 'OG Britto e VND',
     file: 'vnd'
 };
 const RD = {
     songName: 'Brasil Grime',
-    artist : 'Elicê, Major RD',
+    artist : 'Elicê e Major RD',
     file: 'rd'
 };
 const PUTO = {
     songName: 'Brasil Grime',
-    artist : 'Putodiparis, TokioDK',
+    artist : 'Putodiparis e TokioDK',
     file: 'puto'
 };
 const TRCS = {
     songName: 'Brasil Grime',
-    artist : 'Tárcis, Thxuzz',
+    artist : 'Tárcis e Thxuzz',
     file: 'trcs'
 };
 const FLSD9 = {
     songName: 'Brasil Grime',
-    artist : 'Fleezus, SD9',
+    artist : 'Fleezus e SD9',
     file: 'flsd9'
 };
 const DRX = {
     songName: 'Brasil Grime',
-    artist : 'Big Bllakk, Derxan',
+    artist : 'Big Bllakk e Derxan',
     file: 'drx'
 };
 const BIGSANT = {
     songName: 'Chove chuva',
-    artist : 'Big Bllakk, Sant',
+    artist : 'Big Bllakk e Sant',
     file: 'bigsant'
 };
 const DUZZ = {
@@ -86,42 +86,42 @@ const DUZZ = {
 };
 const GANNI = {
     songName: 'Não durmo',
-    artist : 'Fleezus, SD9',
+    artist : 'Fleezus e SD9',
     file: 'ganni'
 };
 const LEALL = {
     songName: 'Brasil Grime',
-    artist : 'Leall, ALD',
+    artist : 'Leall e ALD',
     file: 'leall'
 };
 const LEALLVND = {
     songName: 'Poder Bélico',
-    artist : 'Leall VND',
+    artist : 'Leall e VND',
     file: 'leallvnd'
 };
 const LIPTNT = {
     songName: 'Lip Tint',
-    artist : 'Vino',
+    artist : 'Yunk Vino, Xamã, Ryan Realcria, Bielzin e Major RD',
     file: 'liptnt'
 };
 const MATUE1 = {
     songName: 'Xtranho',
-    artist : 'Matuê, Brandão',
+    artist : 'Matuê e Brandão',
     file: 'matue1'
 };
 const MATUE2 = {
     songName: 'Japonês',
-    artist : 'Matuê, Brandão',
+    artist : 'Matuê e Brandão',
     file: 'matue2'
 };
 const NILL = {
     songName: 'Regras da Loja',
-    artist : 'niLL, BK',
+    artist : 'niLL e BK',
     file: 'nill'
 };
 const PIOR = {
     songName: 'Medley',
-    artist : 'Putodiparis, Piorversãodemim',
+    artist : 'Putodiparis e Piorversãodemim',
     file: 'pior'
 };
 const PUTO1 = {
@@ -136,7 +136,7 @@ const PUTO2 = {
 };
 const TRANCE = {
     songName: 'Trance',
-    artist : 'Travis Scott, Young Thug',
+    artist : 'Travis Scott e Young Thug',
     file: 'trance'
 };
 const VIKVCT = {
