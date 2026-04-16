@@ -73,6 +73,76 @@ const DRX = {
     songName: 'Brasil Grime',
     artist : 'Big Bllakk, Derxan',
     file: 'drx'
+};
+const BIGSANT = {
+    songName: 'Chove chuva',
+    artist : 'Big bllakk',
+    file: 'bigsant'
+};
+const DUZZ = {
+    songName: 'Deeabo',
+    artist : 'Fleezus, SD9',
+    file: 'deeabo'
+};
+const GANNI = {
+    songName: 'Não durmo',
+    artist : 'Fleezus, SD9',
+    file: 'ganni'
+};
+const LEALL = {
+    songName: 'Brasil Grime',
+    artist : 'Leall, ALD',
+    file: 'leall'
+};
+const LEALLVND = {
+    songName: 'Poder Bélico',
+    artist : 'Leall VND',
+    file: 'leallvnd'
+};
+const LIPTNT = {
+    songName: 'Lip Tint',
+    artist : 'Vino',
+    file: 'liptnt'
+};
+const MATUE1 = {
+    songName: 'Xtranho',
+    artist : 'Matuê, Brandão',
+    file: 'matue1'
+};
+const MATUE2 = {
+    songName: 'Japonês',
+    artist : 'Fleezus, SD9',
+    file: 'matue2'
+};
+const NILL = {
+    songName: 'Regras da Loja',
+    artist : 'Fleezus, SD9',
+    file: 'nill'
+};
+const PIOR = {
+    songName: 'Medley',
+    artist : 'Putodiparis, Piorversãodemim',
+    file: 'pior'
+};
+const PUTO1 = {
+    songName: 'Glock e 2 pentes',
+    artist : 'Putodiparis',
+    file: 'puto1'
+};
+const PUTO2 = {
+    songName: 'Glock Gêmeas',
+    artist : 'Putodiparis',
+    file: 'puto2'
+};
+const TRANCE = {
+    songName: 'Trance',
+    artist : 'Travis Scott, Young Thug',
+    file: 'trance'
+};
+const VIKVCT = {
+    songName: 'Lil Top Flow',
+    artist : 'Viktor Vercetti',
+    file: 'vikvct'
 }
 
 let isPlaying = false;
@@ -92,6 +162,20 @@ const originalPlaylist = JSON.parse(localStorage.getItem('playlist')) ?? [
   TRCS,
   FLSD9,
   DRX,
+  BIGSANT,
+  DUZZ,
+  GANNI,
+  LEALL,
+  LEALLVND,
+  LIPTNT,
+  MATUE1,
+  MATUE2,
+  NILL,
+  PIOR,
+  PUTO1,
+  PUTO2,
+  TRANCE,
+  VIKVCT,
 ];
 let sortedPlaylist = [...originalPlaylist];
 let index = 0;
