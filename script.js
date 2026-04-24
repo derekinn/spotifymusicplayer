@@ -29,6 +29,11 @@ const TTF = {
     artist : 'Derek, Leviano e Brandão085',
     file: 'ttf'
 };
+const LX = {
+    songName: 'Wiggle Wiggle',
+    artist : 'LX',
+    file: 'lx'
+};
 const BBL = {
     songName: 'Brasil Grime',
     artist : 'Bebelsite e Vercetti',
@@ -153,6 +158,7 @@ const originalPlaylist = JSON.parse(localStorage.getItem('playlist')) ?? [
   VidaCara,
   Junho94,
   TTF,
+  LX,
   BBL,
   MAL,
   SMTSD9,
