@@ -148,6 +148,56 @@ const VIKVCT = {
     songName: 'Lil Top Flow',
     artist : 'Viktor Vercetti',
     file: 'vikvct'
+};
+const RIMAS1 = {
+    songName: 'Rimas Engraçadas 1',
+    artist : 'Batalha de rima',
+    file: 'rimas1'
+};
+const RIMAS2 = {
+    songName: 'Rimas Engraçadas 2',
+    artist : 'Batalha de rima',
+    file: 'rimas2'
+};
+const RIMAS3 = {
+    songName: 'Rimas Engraçadas 3',
+    artist : 'Batalha de rima',
+    file: 'rimas3'
+};
+const RIMAS4 = {
+    songName: 'Rimas Engraçadas 4',
+    artist : 'Batalha de rima',
+    file: 'rimas4'
+};
+const RIMAS5 = {
+    songName: 'Rimas Engraçadas 5',
+    artist : 'Batalha de rima',
+    file: 'rimas5'
+};
+const RIMAS6 = {
+    songName: 'Rimas Engraçadas 6',
+    artist : 'Batalha de rima',
+    file: 'rimas6'
+};
+const RIMAS7 = {
+    songName: 'Rimas Engraçadas 7',
+    artist : 'Batalha de rima',
+    file: 'rimas7'
+};
+const RIMAS8 = {
+    songName: 'Rimas Engraçadas 8',
+    artist : 'Batalha de rima',
+    file: 'rimas8'
+};
+const RIMAS9 = {
+    songName: 'Rimas Engraçadas 9',
+    artist : 'Batalha de rima',
+    file: 'rimas9'
+};
+const RIMAS10 = {
+    songName: 'Rimas Engraçadas 10',
+    artist : 'Batalha de rima',
+    file: 'rimas10'
 }
 
 let isPlaying = false;
@@ -181,7 +231,17 @@ const originalPlaylist = JSON.parse(localStorage.getItem('playlist')) ?? [
   PUTO1,
   PUTO2,
   TRANCE,
-  VIKVCT
+  VIKVCT,
+  RIMAS1,
+  RIMAS2,
+  RIMAS3,
+  RIMAS4,
+  RIMAS5,
+  RIMAS6,
+  RIMAS7,
+  RIMAS8,
+  RIMAS9,
+  RIMAS10  
 ];
 let sortedPlaylist = [...originalPlaylist];
 let index = 0;
