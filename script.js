@@ -242,7 +242,6 @@ const originalPlaylist = JSON.parse(localStorage.getItem('playlist')) ?? [
   RIMAS3,
   RIMAS4,
   RIMAS5,
-  RIMAS6,
   RIMAS7,
   RIMAS8,
   RIMAS9,
