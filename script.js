@@ -177,7 +177,7 @@ const RIMAS5 = {
 const RIMAS6 = {
     songName: 'Rimas Engraçadas 6',
     artist : 'Batalha de rima',
-    file: 'rimas11'
+    file: 'rimas6'
 };
 const RIMAS7 = {
     songName: 'Rimas Engraçadas 7',
