@@ -174,11 +174,6 @@ const RIMAS5 = {
     artist : 'Batalha de rima',
     file: 'rimas5'
 };
-const RIMAS6 = {
-    songName: 'Rimas Engraçadas 6',
-    artist : 'Batalha de rima',
-    file: 'rimas6'
-};
 const RIMAS7 = {
     songName: 'Rimas Engraçadas 7',
     artist : 'Batalha de rima',
@@ -198,6 +193,16 @@ const RIMAS10 = {
     songName: 'Rimas Engraçadas 10',
     artist : 'Batalha de rima',
     file: 'rimas10'
+};
+const RIMAS11 = {
+    songName: 'Rimas Engraçadas 11',
+    artist : 'Batalha de rima',
+    file: 'rimas11'
+};
+const RIMAS12 = {
+    songName: 'Rimas Engraçadas 12',
+    artist : 'Batalha de rima',
+    file: 'rimas12'
 }
 
 let isPlaying = false;
@@ -241,7 +246,9 @@ const originalPlaylist = JSON.parse(localStorage.getItem('playlist')) ?? [
   RIMAS7,
   RIMAS8,
   RIMAS9,
-  RIMAS10  
+  RIMAS10,
+  RIMAS11,
+  RIMAS12  
 ];
 let sortedPlaylist = [...originalPlaylist];
 let index = 0;
