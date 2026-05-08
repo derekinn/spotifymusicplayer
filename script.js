@@ -203,6 +203,31 @@ const RIMAS12 = {
     songName: 'Rimas Engraçadas 12',
     artist : 'Batalha de rima',
     file: 'rimas12'
+};
+const BRX1 = {
+    songName: 'Broxada Sinistra - Felipe Arthur',
+    artist : 'Broxada',
+    file: 'brx1'
+};
+const BRX2 = {
+    songName: 'Broxada Sinistra - Nando Gald e Italo Sena',
+    artist : 'Broxada',
+    file: 'brx2'
+};
+const BRX3 = {
+    songName: 'Broxada Sinistra - Novo membro da familia',
+    artist : 'Broxada',
+    file: 'brx3'
+};
+const BRX4 = {
+    songName: 'Broxada Sinistra - Papo de negão',
+    artist : 'Broxada',
+    file: 'brx4'
+};
+const BRX5 = {
+    songName: 'Broxada Sinistra - Brigas que mudaram o curso da humanidade',
+    artist : 'Broxada',
+    file: 'brx5'
 }
 
 let isPlaying = false;
@@ -247,7 +272,12 @@ const originalPlaylist = JSON.parse(localStorage.getItem('playlist')) ?? [
   RIMAS9,
   RIMAS10,
   RIMAS11,
-  RIMAS12  
+  RIMAS12,
+  BRX1,
+  BRX2,
+  BRX3,
+  BRX4,
+  BRX5  
 ];
 let sortedPlaylist = [...originalPlaylist];
 let index = 0;
