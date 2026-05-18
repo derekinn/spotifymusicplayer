@@ -19,6 +19,11 @@ const VidaCara = {
     artist : 'Orochi, Domlaike e Chefin',
     file: 'vida_cara'
 };
+const BKJX = {
+    songName: 'Podpah - BK & JX',
+    artist : 'Podpah',
+    file: 'bkjx'
+};
 const Junho94 = {
     songName: 'Junho de 94',
     artist : 'Djonga',
@@ -261,6 +266,7 @@ let repeatOn = false;
 
 const originalPlaylist = JSON.parse(localStorage.getItem('playlist')) ?? [
   VidaCara,
+  BKJX,
   Junho94,
   TTF,
   LX,
