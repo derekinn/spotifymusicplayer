@@ -258,6 +258,36 @@ const BRX10 = {
     songName: 'Broxada Sinistra - Carlos Ortega e Felipe arthur',
     artist : 'Broxada',
     file: 'brx10'
+};
+const BRX11 = {
+    songName: 'Broxada Sinistra - Sacerdotisa Analu',
+    artist : 'Broxada',
+    file: 'brx11'
+};
+const BRX12 = {
+    songName: 'Broxada Sinistra - Ronaldinho vs Pavan vs Pastor',
+    artist : 'Broxada',
+    file: 'brx12'
+};
+const BRX13 = {
+    songName: 'Broxada Sinistra - Lacração Broxada debate',
+    artist : 'Broxada',
+    file: 'brx13'
+};
+const BRX14 = {
+    songName: 'Broxada Sinistra - Quadros que foram barrados',
+    artist : 'Broxada',
+    file: 'brx14'
+};
+const BRX15 = {
+    songName: 'Broxada Sinistra - O Gabigol tem vergonha do flamengo',
+    artist : 'Broxada',
+    file: 'brx15'
+};
+const BRX16 = {
+    songName: 'Broxada Sinistra - Convocação da seleção',
+    artist : 'Broxada',
+    file: 'brx16'
 }
 
 let isPlaying = false;
@@ -313,7 +343,13 @@ const originalPlaylist = JSON.parse(localStorage.getItem('playlist')) ?? [
   BRX7,
   BRX8,
   BRX9,
-  BRX10  
+  BRX10,
+  BRX11,
+  BRX12,
+  BRX13,
+  BRX14,
+  BRX15,
+  BRX16  
 ];
 let sortedPlaylist = [...originalPlaylist];
 let index = 0;
